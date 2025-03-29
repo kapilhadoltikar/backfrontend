@@ -28,7 +28,7 @@ const ScrollToTop = () => {
 
 
   return (
-    <div  onClick={scrollTop} className='h-12 w-12 rounded-[50%] border-[2px] border-[solid] border-[#333] bg-[#fff] text-black cursor-pointer fixed bottom-[15px] right-[20px]'>
+    <div  onClick={scrollTop} className='h-12 w-12 rounded-[50%] border-[2px] border-[solid] border-[#333] bg-[#fff] cursor-pointer fixed bottom-[15px] right-[20px]'>
         {showScrollTopButton && <CiCircleChevUp />}
     </div>
   )
